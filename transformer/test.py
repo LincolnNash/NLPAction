@@ -32,10 +32,3 @@ def fb_iter_pro(n):
         pre = cur
         cur = sum
     return cur
-import torch
-a = [[1,2,3,4],[1,2,3,4]]
-ta = torch.FloatTensor(a)
-ta = ta.unsqueeze(0)
-print(ta)
-ta.expand(2,2,2)
-print(a)
